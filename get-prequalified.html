@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aries Equipment Trade International | Get Pre-Qualified</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.png" alt="Aries Equipment Trade International" class="brand-logo">
+      <div>
+        Aries Equipment Trade International
+        <small>Equipment • Financing • Support</small>
+      </div>
+    </a>
+
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" type="button">Menu</button>
+
+    <nav class="nav" aria-label="Primary">
+      <div class="nav-item has-dd">
+        <a class="nav-link" href="#" data-dd="true">Equipment <span class="chev">▼</span></a>
+        <div class="dropdown">
+          <a href="inventory-medical.html">A - Medical</a>
+          <a href="inventory-small.html">B - Small Equipment</a>
+          <a href="inventory-heavy.html">C - Heavy Equipments</a>
+          <a href="inventory-beauty.html">D - Body Contouring & Beauty</a>
+          <a href="inventory-office.html">E - Office Equipment</a>
+          <a href="inventory-automotive.html">F - Automotive Solutions</a>
+        </div>
+      </div>
+
+      <div class="nav-item has-dd">
+        <a class="nav-link" href="#" data-dd="true">Financing <span class="chev">▼</span></a>
+        <div class="dropdown">
+          <a href="get-prequalified.html">Get Pre-Qualified</a>
+        </div>
+      </div>
+
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="tile">
+        <img class="tile-img" style="height:320px"
+             src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2200&q=60"
+             alt="Pre-Qualification">
+        <div class="tile-body">
+          <div class="kicker">Get Pre-Qualified</div>
+          <h2 style="margin:8px 0 6px;">Start the financing process</h2>
+          <p>Submit your info and our team will follow up with next steps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h2>Pre-Qualification Form</h2>
+        <p style="color: var(--muted); margin-top:6px;">
+          Call 832-531-9944 or email info@ariesequipmenttrade.com if you need help.
+        </p>
+
+        <!-- SAFE STATIC FORM (no action, no JS). -->
+        <form class="form" id="creditApp" onsubmit="return false;">
+          <h3 style="margin-top:0;">Equipment Financing Application</h3>
+
+          <div class="card" style="margin: 14px 0;">
+            <h4 style="margin:0 0 10px;">Dealer Information</h4>
+
+            <div class="split">
+              <div class="field">
+                <label>Dealer Name</label>
+                <input value="Aries Equipment Trade International" readonly />
+              </div>
+              <div class="field">
+                <label>Phone</label>
+                <input value="832-531-9944" readonly />
+              </div>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Office Address</label>
+                <input value="2290 Dickinson Ave, Dickinson, TX 77539" readonly />
+              </div>
+              <div class="field">
+                <label>Email</label>
+                <input value="info@ariesequipmenttrade.com" readonly />
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Showroom & Repair Shop Address</label>
+              <input value="5407 Mary Francis Dr, Houston, TX 77039" readonly />
+            </div>
+          </div>
+
+          <div class="card" style="margin: 14px 0;">
+            <h4 style="margin:0 0 10px;">Applicant Information</h4>
+
+            <div class="split">
+              <div class="field">
+                <label>Full Name</label>
+                <input required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label>Date of Birth</label>
+                <input type="date" required autocomplete="bday" />
+              </div>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Phone</label>
+                <input required inputmode="tel" autocomplete="tel" />
+              </div>
+              <div class="field">
+                <label>Email</label>
+                <input type="email" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Current Address</label>
+              <input required autocomplete="street-address" />
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>City</label>
+                <input required autocomplete="address-level2" />
+              </div>
+              <div class="field">
+                <label>State</label>
+                <input required maxlength="2" placeholder="TX" autocomplete="address-level1" />
+              </div>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Zip</label>
+                <input required inputmode="numeric" autocomplete="postal-code" />
+              </div>
+              <div class="field">
+                <label>Monthly Housing Payment</label>
+                <input inputmode="decimal" placeholder="$" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin: 14px 0;">
+            <h4 style="margin:0 0 10px;">Equipment Information</h4>
+
+            <div class="split">
+              <div class="field">
+                <label>Category</label>
+                <select required>
+                  <option value="">Select</option>
+                  <option>A - Medical</option>
+                  <option>B - Small Equipment</option>
+                  <option>C - Heavy Equipments</option>
+                  <option>D - Body Contouring & Beauty</option>
+                  <option>E - Office Equipment</option>
+                  <option>F - Automotive Solutions</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Condition</label>
+                <select required>
+                  <option value="">Select</option>
+                  <option>New</option>
+                  <option>Used</option>
+                  <option>Either</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Equipment Type</label>
+                <input required placeholder="Example: forklift, exam table, printer, laser..." />
+              </div>
+              <div class="field">
+                <label>Brand / Model</label>
+                <input placeholder="If known" />
+              </div>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Estimated Purchase Price</label>
+                <input inputmode="decimal" placeholder="$" />
+              </div>
+              <div class="field">
+                <label>Down Payment</label>
+                <input inputmode="decimal" placeholder="$" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin: 14px 0;">
+            <h4 style="margin:0 0 10px;">Authorization</h4>
+
+            <div class="field">
+              <label>
+                <input type="checkbox" required />
+                I agree and authorize verification.
+              </label>
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label>Applicant Signature (type full name)</label>
+                <input required />
+              </div>
+              <div class="field">
+                <label>Date</label>
+                <input type="date" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <a class="btn primary" href="mailto:info@ariesequipmenttrade.com?subject=Pre-Qualification%20Request%20-%20Aries%20Equipment%20Trade%20International">Email Application</a>
+            <a class="btn" href="tel:8325319944">Call 832-531-9944</a>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div style="font-weight:800;">Aries Equipment Trade International</div>
+      <div style="color: rgba(255,255,255,.75);">info@ariesequipmenttrade.com</div>
+      <div style="color: rgba(255,255,255,.75);">Office: 2290 Dickinson Ave, Dickinson, TX 77539</div>
+      <div style="color: rgba(255,255,255,.75);">Showroom/Repair: 5407 Mary Francis Dr, Houston, TX 77039</div>
+    </div>
+    <div style="margin-top:10px;">
+      <div style="font-weight:800;">832-531-9944</div>
+      <div style="color: rgba(255,255,255,.75);">© <span id="y"></span> Aries Equipment Trade International</div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/nav.js"></script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
